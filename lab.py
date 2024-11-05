@@ -24,12 +24,7 @@ class Lamp:
         return f"Тип: {self.__types} \nПотужність: {self.__power} \nКількість діодів: {self.__diode} \nВиробник: {self.__producer}"
 
     def __repr__(self):
-        return (f'Тип: {self.__types} '
-                f'\nПотужність: {self.__power}'
-                f'\nКількість діодів: {self.__diode} '
-                f'\nВиробник: {self.__producer} '
-                f'\nЦіна: {self.price} грн'
-                f'\nМодель: {self.model}\n ')
+        return (f'Тип: {self.__types}\nПотужність: {self.__power}\nКількість діодів: {self.__diode} \nВиробник: {self.__producer} \nЦіна: {self.price} грн\nМодель: {self.model}\n ')
     def __del__(self):
         print(f"{self.__str__()} \ndel\n")
 
