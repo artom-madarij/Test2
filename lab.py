@@ -41,6 +41,5 @@ def main():
     lamp2 = Lamp('Галогенка', 5, 3)
     print('Lamp2:\n', repr(lamp2))
     lamp3 = Lamp()
-    print('Lamp1:\n',repr(lamp1))
     print('Lamp3:\n', repr(lamp3))
 main()
